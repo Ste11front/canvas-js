@@ -32,9 +32,9 @@ const ctx = canvas.getContext('2d');
 
 // ctx.fill();
 
-// ctx.fillStyle = 'red'
+// ctx.fillStyle = '#ff0000'
 
-// ctx.strokeStyle = 'green'
+// ctx.strokeStyle = '#00ff00'
 
 // ctx.lineWidth = 15;
 
@@ -47,11 +47,9 @@ const ctx = canvas.getContext('2d');
 
 // ctx.beginPath();
 
-// ctx.arc(canvas.width/2, canvas.height/2, 200, 0, 2 * Math.PI);
+// ctx.arc(canvas.width/2, canvas.height/2, 200, 0, Math.PI / 2, true);
 
-// ctx.fillStyle = 'red';
-
-// ctx.fill();
+// ctx.stroke();
 
 
 ctx.beginPath();
